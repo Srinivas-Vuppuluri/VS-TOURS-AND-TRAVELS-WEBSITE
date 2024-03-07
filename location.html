@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCATIONS</title>
+
+    <link rel="stylesheet" href="location.css"/>
+    
+</head>
+<body>
+    <div class="main">
+      <div class="left">
+        <select class="option">
+          <div class="sub"> 
+            <option>More Travels</option> 
+            <option value="">Packeges</option> 
+            <option value="">Stays</option> 
+            <option value="">Cars</option>
+            <option value="">Flights</option> 
+            <option value="">Cruises</option> 
+          </div>
+        </select>
+      </div> 
+      
+      <div class="right"> 
+        <div><a href="index.html">HOME</a></div> 
+        <div><a href="location.html">LOCATIONS</a></div> 
+        <div><a href="cart.html">CART</a></div>
+        <div><a href="Login.html">LOG IN</a></div> 
+        <div><a href="Signup.html">SIGN UP</a></div> 
+      </div> 
+    </div>
+<h1>LOCATIONS</h1>    
+  <button id="goto" onclick="window.location.href='cart.html'">Go to cart</button>
+  <select id="pricesort" onchange="selectprice()"> 
+    <option value="">select  by price</option> 
+    <option value="high">High to Low</option>
+    <option value="low">Low to High</option> 
+  </select>
+  <select id="filter" onchange="filtercat()"> 
+    <option value="">Select by places</option> 
+    <option value="New delhi">New delhi</option>
+    <option value="Mumbai">mumbai</option> 
+    <option value="Goa">Goa</option> 
+    <option value="Hyderabad">hyderabad</option>
+  </select>
+<div id="container"></div>
+</body>
+</html>
+<script src="location.js"></script>
 
