@@ -7,70 +7,91 @@
     <title>home page</title>
 
     <link rel="stylesheet" href="index.css"/>
-<h1 style="font-style:italic;font-size:35px;color:maroon">THIS IS VUPPULURI SRINIVAS... <p1>WELCOME TO VS TRAVEL SERVICES</p1></h1>
+<h1>THIS IS VUPPULURI SRINIVAS... <p1>WELCOME TO VS TRAVEL SERVICES</p1></h1>
 </head>
+
 <body>
-    <div id="total">
-    <div class="main">
-        <div class="left">
-            <select class="option">
-                <div class="sub">
-                <option>More Travels</option>
-                <option value="">Packages</option>
-                <option value="">Stays</option>
+<div id="total"> 
+<div class="main">
+    <div class="left">
+         <select class="option">
+             <div class="sub">
+                <option>More Travels</option> 
+                <option value="">Packages</option> 
+                <option value="">Stays</option> 
                 <option value="">Cars</option>
                 <option value="">Flights</option>
-                </div>
-            </select>
-          
+            </div>
+        </select>
+    </div>
+    <div class="right">
+        <div><a href="location.html">LOCATIONS</a></div> 
+        <div><a href="cart.html">CART</a></div> 
+        <div><a href="Login.html">LOG IN</a></div>
+        <div><a href="Signup.html">SIGN UP</a></div>
+    </div>
+</div>
+<div class="main2">
+    <div class="container">
+        <div><button id="stays">Stays</button></div> 
+        <div><button>Flights</button></div> 
+        <div><button>Cars</button></div> 
+        <div><button>Packages</button></div>        
+    </div>
+    <hr/>
+        
+    <form class="form">
+        <input class="inone" type="" placeholder="Going To"/> 
+        <input type="date" id="start" place holder="check-in" min="2023-04-01" max="2024-12-31">
+            
+        <input type="date" id="start" min="2023-04-01" max="2024-12-31">
+        <input class="intwo" type="" placeholder=" No Of Travellers"/><div id="check">
+                
+            <div>
+                <input type="checkbox" id="scales"/> 
+                <label for="Add a Flight">Add a Flight</label>
+            </div>
+            <div>
+                <input type="checkbox" id="scales" /> 
+                <label for="Add a Flight">Add a Car</label>
+            </div> 
         </div>
-        <div class="right">
-         <div><a href="location.html">LOCATIONS</a></div>
-         <div><a href="cart.html">CART</a></div>
-         <div><a href="Login.html">LOG IN</a></div>
-         <div><a href="Signup.html">SIGN UP</a></div>
+        <div class="search"> 
+            <input  type=submit value="Search"/>
         </div>
-      </div>
-
-      <div class="main2">
-      <div class="container">
-       <div><button id="stays">Stays</button></div>
-       <div><button>Flights</button></div>
-       <div><button>Cars</button></div>
-       <div><button>Packages</button></div>
-      </div>
-      <hr/>
-      <form class="form">
-     <input class="inone" type="" placeholder="Going To"/>
-     <input type="date" id="start" place holder="check-in"
-     min="2023-04-01" max="2024-12-31">
-     <input type="date" id="start" 
-     min="2023-04-01" max="2024-12-31">
-     <input class="intwo" type="" placeholder=" No Of Travellers"/>
-   <div id="check">
-    <div>
-        <input type="checkbox" id="scales"/>
-        <label for="Add a Flight">Add a Flight</label>
-      </div>
-      <div>
-        <input type="checkbox" id="scales" />
-        <label for="Add a Flight">Add a Car</label>
-      </div>
-   </div>
-  <div class="search"> <input  type=submit value="Search"/></div>
-
-      </div>
-    </form>
-  </div>
-
-  
-  <div class="end">
-      <p>@2023 Travelscapes LLC,an Expedia Group Company.All rights reserved.</p>
-  </div>
-
+</div>
+</form>
 </div>
 
-
+<div class="main3">
+    <div class="add"> 
+        <div class="com"> 
+            <h4>Company</h4>
+            <p>About</p> <p>List your property</p> <p>Partnerships</p> <p>Newsroom</p> <p>Advertising</p></div>
+        <div class="exp"> 
+            <h4>Explore</h4>
+            <p>Hotels in North India</p> <p>Vacation rentals</p> <p>Vacation Packages</p> <p>Domestic flights</p> <p>Car rental</p> <p>VS Reviews</p> <p>VS Coupons</p> <p>Unique places to stay</p> <p>Travel Blog</p> </div>
+        <div class="pol"> 
+            <h4>Policies</h4>
+            <p>Privacy Policies</p> 
+            <p>Terms of use</p> 
+            <p>Accessibility</p> 
+            <p>Do not sell my personal information</p> 
+        </div>
+        <div class="help"> 
+            <h4>Help</h4>
+            <p>Support</p> 
+            <p>Cancel your rental or vacation rental booking </p> 
+            <p>cancel your flight</p> 
+            <p>Refund timelines,policies 
+            </p> <p>Use VS Coupons</p>
+        </div>
+    </div>
+</div>
+<div class="end">
+    <p>@2023 VS Travel Services.All rights reserved.</p>
+</div>
+</div>
 </body>
 </html>
 <script src="index.js"></script>
