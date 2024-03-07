@@ -1,4 +1,4 @@
-<script>
+
   document.querySelector(".form").addEventListener("submit",formSubmit);
 var arr=JSON.parse(localStorage.getItem("place")) || [];
 function formSubmit(event){
@@ -9,4 +9,3 @@ function formSubmit(event){
     localStorage.setItem("place",JSON.stringify(arr));
         window.location.href="location.html";
 }
-</script>
