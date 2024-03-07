@@ -1,7 +1,8 @@
 
   document.querySelector(".form").addEventListener("submit",formSubmit);
 var arr=JSON.parse(localStorage.getItem("place")) || [];
-function formSubmit(event){
+function formSubmit(event)
+{
   event.preventDefault();
   var place=document.querySelector(".inone").value;
   var obj={userName: place,};
